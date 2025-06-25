@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 📖 Documentation
+    url: https://github.com/johnsmith0951/issue-management/wiki
+    about: Check our documentation for common questions and guides
+  - name: 💬 Discussion Forum
+    url: https://github.com/johnsmith0951/issue-management/discussions
+    about: Ask questions and discuss ideas with the community
+  - name: 🐛 Security Issues
+    url: https://github.com/johnsmith0951/issue-management/security/advisories/new
+    about: Report security vulnerabilities privately
+  - name: 📧 Support Contact
+    url: mailto:support@yourproject.com
+    about: Contact us directly for urgent issues or commercial support
