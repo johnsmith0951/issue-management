@@ -1,4 +1,7 @@
+# Issue creation configuration
 blank_issues_enabled: false
+
+# Contact links displayed before issue creation
 contact_links:
   - name: 📖 Documentation
     url: https://github.com/johnsmith0951/issue-management/wiki
@@ -12,3 +15,36 @@ contact_links:
   - name: 📧 Support Contact
     url: mailto:support@yourproject.com
     about: Contact us directly for urgent issues or commercial support
+  - name: 🔧 Troubleshooting Guide
+    url: https://github.com/johnsmith0951/issue-management/blob/main/TROUBLESHOOTING.md
+    about: Common problems and their solutions
+  - name: 🚀 Feature Requests
+    url: https://github.com/johnsmith0951/issue-management/discussions/categories/ideas
+    about: Suggest new features or improvements
+
+# Additional configuration examples (commented out)
+# 
+# Note: The following are examples of what could be configured
+# in other GitHub configuration files or contexts:
+#
+# Repository settings (in repository settings, not config.yml):
+# - Issue labels
+# - Milestone management
+# - Branch protection rules
+# - Required status checks
+#
+# Workflow settings (in .github/workflows/):
+# - Automated issue labeling
+# - Issue assignment rules
+# - Auto-close inactive issues
+#
+# Template ordering (controlled by filename in ISSUE_TEMPLATE/):
+# Templates are displayed in alphabetical order by filename
+# Current template order:
+# 1. 00-question.md         → 💬 Question (appears first)
+# 2. 01-bug_report.md       → 🐛 Bug Report  
+# 3. 02-feature_request.md  → ✨ Feature Request
+# 4. 99-security.md         → 🛡️ Security Issue (appears last)
+#
+# To change order: rename files with different number prefixes
+# Example: 03-documentation.md, 10-performance.md, etc.
